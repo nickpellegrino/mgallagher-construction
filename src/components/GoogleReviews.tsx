@@ -61,7 +61,8 @@ export default function GoogleReviews() {
     <section className="bg-black text-white py-12">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between mb-6 flex-wrap gap-4 text-center">
-          <h2 className="mx-auto text-5xl text-white text-center center font-semibold">Real Reviews from Google</h2>
+          <h2 className="mx-auto text-5xl italic text-white text-center center font-semibold">5-Star Custom Deck Building in South Jersey</h2>
+          <p className="mx-auto text-xl text-white text-center">Homeowners across South Jersey consistently rate our decks 5 stars for exceptional craftsmanship, quality materials, and unmatched service. See what they have to say in their own words.</p>
         </div>
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
@@ -81,7 +82,7 @@ export default function GoogleReviews() {
         >
           {reviews.map((review, idx) => (
             <SwiperSlide key={idx}>
-              <div className="bg-slate-800 rounded-lg p-6 shadow-md border border-zinc-700 rounded-xl h-full flex flex-col justify-between animate-fade-in">
+              <div className="bg-emerald-900 rounded-lg p-6 mt-10 shadow-md border border-zinc-700 rounded-xl h-full flex flex-col justify-between animate-fade-in">
                 <div className="mb-4 flex items-center">
                   {review.profile_photo_url ? (
                     <img
@@ -98,7 +99,7 @@ export default function GoogleReviews() {
                   )}
                   <div>
                     <p className="font-semibold">{review.author_name}</p>
-                    <p className="text-sm text-zinc-400">{review.relative_time_description}</p>
+                    <p className="text-sm text-white">{review.relative_time_description}</p>
                   </div>
                 </div>
                 <div className="flex mb-2">
@@ -114,7 +115,7 @@ export default function GoogleReviews() {
                     </svg>
                   ))}
                 </div>
-                <p className="text-zinc-300 text-sm leading-relaxed">
+                <p className="text-white text-sm leading-relaxed">
                   {truncateText(review.text, 3)}
                 </p>
               </div>
