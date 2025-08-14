@@ -61,7 +61,7 @@ export default function GoogleReviews() {
     <section className="bg-black text-white py-12">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between mb-6 flex-wrap gap-4 text-center">
-          <h2 className="mx-auto text-5xl italic text-white text-center center font-semibold">5-Star Custom Deck Building in South Jersey</h2>
+          <h2 className="mx-auto text-5xl sm:text-`xl italic text-white text-center center font-semibold">5-Star Custom Deck Building in South Jersey</h2>
           <p className="mx-auto text-xl text-white text-center">Homeowners across South Jersey consistently rate our decks 5 stars for exceptional craftsmanship, quality materials, and unmatched service. See what they have to say in their own words.</p>
         </div>
         <Swiper
