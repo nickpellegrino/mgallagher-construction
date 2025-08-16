@@ -8,7 +8,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-emerald-900 text-color">
+    <header className="bg-gray-900 text-color">
       <div className="max-w-7xl mx-auto px-8 py-8 flex justify-between items-center">
         <Link href="/" className="text-xl font-semibold">
           <img src="/logo.png" alt="MGallagher Construction Logo" className="mx-auto max-w-50" />

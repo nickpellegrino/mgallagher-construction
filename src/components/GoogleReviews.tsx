@@ -82,7 +82,7 @@ export default function GoogleReviews() {
         >
           {reviews.map((review, idx) => (
             <SwiperSlide key={idx}>
-              <div className="bg-emerald-900 rounded-lg p-6 mt-10 shadow-md border border-zinc-700 rounded-xl h-full flex flex-col justify-between animate-fade-in">
+              <div className="bg-gray-900 rounded-lg p-6 mt-10 shadow-md border border-zinc-700 rounded-xl h-full flex flex-col justify-between animate-fade-in">
                 <div className="mb-4 flex items-center">
                   {review.profile_photo_url ? (
                     <img
