@@ -22,15 +22,15 @@ export default function Header() {
           ☰
         </button>
         <nav className="hidden md:flex space-x-6 font-bold text-xl text-white items-center">
-          <Link href="/services" className="hover:text-black">Services</Link>
-          <Link href="/portfolio" className="hover:text-black">Our Work</Link>
-          <Link href="/about" className="hover:text-black">About</Link>
-          <Link href="/contact" className="hover:text-black">Contact</Link>
+          <Link href="/services" className="hover:text-slate-300">Services</Link>
+          <Link href="/portfolio" className="hover:text-slate-300">Our Work</Link>
+          <Link href="/about" className="hover:text-slate-300">About</Link>
+          <Link href="/contact" className="hover:text-slate-300">Contact</Link>
           <Link
             href="tel:8565551234"
-            className="ml-4 py-3 px-8 bg-black text-white rounded-full flex items-center gap-2 hover:bg-stone-950 text-xl"
+            className="ml-4 py-3 px-8 bg-slate-300 text-black rounded-full flex items-center gap-2 text-xl"
           >
-            <PhoneCall size={18} className="text-white" />
+            <PhoneCall size={18} className="text-black" />
             (856) 889-7887
           </Link>
         </nav>
@@ -46,7 +46,7 @@ export default function Header() {
             <Link
               href="tel:8565551234"
               className="block px-4 py-2 bg-black text-white rounded-full flex items-center gap-2 
-                       hover:bg-gray-700 transition shadow-[0_0_10px_rgba(255,0,0,0.3)] 
+                       hover:bg-stone-950 transition shadow-[0_0_10px_rgba(255,0,0,0.3)] 
                        hover:shadow-[0_0_15px_rgba(255,0,0,0.9)] mt-2"
             >
               <PhoneCall size={16} className="text-red-500" />

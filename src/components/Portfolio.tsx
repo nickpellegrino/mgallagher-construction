@@ -54,7 +54,6 @@ export default function Portfolio() {
   const handlers = useSwipeable({
     onSwipedLeft: () => nextImage(),
     onSwipedRight: () => prevImage(),
-    preventDefaultTouchmoveEvent: true,
     trackMouse: true,
   });
 
@@ -62,7 +61,7 @@ export default function Portfolio() {
     <section className="py-16 bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-5xl font-bold text-white italic">Our Portfolio</h2>
+          <h2 className="text-5xl font-bold text-white">Our Portfolio</h2>
           <p className="mt-4 text-2xl text-white">
             Explore some of our recent outdoor living projects, crafted with precision and care.
           </p>

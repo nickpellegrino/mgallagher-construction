@@ -59,12 +59,12 @@ export default function ContactForm() {
                   name="name"
                   placeholder="Your Name"
                   required
-                  className="w-full px-4 py-3 rounded-lg bg-stone-700 border border-stone-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 outline-none"
+                  className="text-black w-full px-4 py-3 rounded-lg bg-slate-300 border border-stone-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 outline-none"
                 />
               </div>
 
               <div>
-                <label htmlFor="email" className="block mb-2 font-medium">
+                <label htmlFor="email" className="block mb-2 font-medium text-black">
                   Email Address
                 </label>
                 <input
@@ -73,7 +73,7 @@ export default function ContactForm() {
                   type="email"
                   placeholder="Your Email"
                   required
-                  className="w-full px-4 py-3 rounded-lg bg-stone-600 border border-gray-900 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 outline-none"
+                  className="text- black w-full px-4 py-3 rounded-lg bg-slate-300 border border-gray-900 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 outline-none text-black"
                 />
               </div>
 
@@ -85,7 +85,7 @@ export default function ContactForm() {
                   id="phone"
                   name="phone"
                   placeholder="Your Phone"
-                  className="w-full px-4 py-3 rounded-lg bg-stone-700 border border-stone-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 outline-none"
+                  className="w-full px-4 py-3 rounded-lg bg-slate-300 border border-stone-600 text-black focus:border-blue-500 focus:ring-2 focus:ring-blue-500 outline-none"
                 />
               </div>
 
@@ -99,7 +99,7 @@ export default function ContactForm() {
                   rows={5}
                   placeholder="Tell us about your project..."
                   required
-                  className="w-full px-4 py-3 rounded-lg bg-stone-700 border border-stone-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 outline-none"
+                  className="w-full px-4 py-3 rounded-lg bg-slate-300 text-black border border-stone-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 outline-none"
                 ></textarea>
               </div>
 
